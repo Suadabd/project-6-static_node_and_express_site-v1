@@ -1,0 +1,25 @@
+{
+
+"projects" : [
+    {
+        "id" : 0,
+        "project_name": "Tech-Degree-Project-1",
+        "description": "This project was created as a part of my Tech degree course on Tree House. I used Java script to create a Random Quote Generator. Each time the show another Quote buton is pushed a new quote should display.",
+        "technologies ": ["CSS", "JavaScript", "HTML"],
+        "live_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
+        "github_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
+        "image_urls ": ["/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project1_png",
+                        "/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project1_2png"]
+    }   ,
+    { 
+        "id ": 1,
+        "project_name ": "project-5-student_files",
+        "description ": "I created a employee directory for a fictional company called 'Awesome Startup'.",
+        "technologies ":["CSS", "JavaScript", "HTML"],
+        "live_link ": "https://suadabd.github.io/project-5-student_files/",
+        "github_link ": "https://suadabd.github.io/project-5-student_files/",
+        "image_urls ": ["/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project5_2png", 
+                        "/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project5_png"]
+    }
+]
+}
