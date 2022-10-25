@@ -8,8 +8,8 @@
         "technologies ": ["CSS", "JavaScript", "HTML"],
         "live_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
         "github_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
-        "image_urls ": ["/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project1_png",
-                        "/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project1_2png"]
+        "image_urls ": ["/static/images/project1.png",
+                        "/static/images/project1_2.png"]
     }   ,
     { 
         "id ": 1,
@@ -18,8 +18,8 @@
         "technologies ":["CSS", "JavaScript", "HTML"],
         "live_link ": "https://suadabd.github.io/project-5-student_files/",
         "github_link ": "https://suadabd.github.io/project-5-student_files/",
-        "image_urls ": ["/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project5_2png", 
-                        "/Users/sabdullahi/Desktop/projects /project-6-static_node_and_express_site-v1/public/img/project5_png"]
+        "image_urls ": ["/static/images/project5_2.png", 
+                        "/static/images/project5.png"]
     }
 ]
 }
