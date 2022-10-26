@@ -1,25 +1,24 @@
 {
-
-"projects" : [
-    {
-        "id" : 0,
-        "project_name": "Tech-Degree-Project-1",
-        "description": "This project was created as a part of my Tech degree course on Tree House. I used Java script to create a Random Quote Generator. Each time the show another Quote buton is pushed a new quote should display.",
-        "technologies ": ["CSS", "JavaScript", "HTML"],
-        "live_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
-        "github_link ": "https://suadabd.github.io/Tech-Degree-Project-1/",
-        "image_urls ": ["/static/images/project1.png",
-                        "/static/images/project1_2.png"]
-    }   ,
-    { 
-        "id ": 1,
-        "project_name ": "project-5-student_files",
-        "description ": "I created a employee directory for a fictional company called 'Awesome Startup'.",
-        "technologies ":["CSS", "JavaScript", "HTML"],
-        "live_link ": "https://suadabd.github.io/project-5-student_files/",
-        "github_link ": "https://suadabd.github.io/project-5-student_files/",
-        "image_urls ": ["/static/images/project5_2.png", 
-                        "/static/images/project5.png"]
-    }
-]
+    "project" : [
+        {
+            "id": 0,
+            "project_name": "Tech-Degree-Project-1",
+            "description": "This project was created as a part of my Tech degree course on Tree House. I used Java script to create a Random Quote Generator. Each time the show another Quote buton is pushed a new quote should display.",
+            "technologies": ["CSS", "JavaScript", "HTML"],
+            "live_link": "https://suadabd.github.io/Tech-Degree-Project-1/",
+            "github_link": "https://suadabd.github.io/Tech-Degree-Project-1/",
+            "image_urls": ["/static/images/project1.png",
+                            "/static/images/project1_2.png"]
+        },
+        { 
+            "id": 1,
+            "project_name": "project-5-student_files",
+            "description": "I created a employee directory for a fictional company called 'Awesome Startup'.",
+            "technologies":["CSS","JavaScript","HTML"],
+            "live_link": "https://suadabd.github.io/project-5-student_files/",
+            "github_link": "https://suadabd.github.io/project-5-student_files/",
+            "image_urls": ["/static/images/project5_2.png", 
+                            "/static/images/project5.png"]
+        }
+    ]
 }
