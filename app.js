@@ -22,8 +22,8 @@ app.get('/about', (req, res )=> {
 app.get('/project/:id', (req, res, next) => {
     const id  = req.params.id;
     // const project = projects[id];
-    if (id <= project.length && id >= 0 ){
-        res.render('project', { project });
+    if (id <= projects.length && id >= 0 ) {
+        res.render('project', { project: projects[id] });
     } else {
         next();
     }
