@@ -32,7 +32,7 @@ app.get('/project/:id', (req, res, next) => {
 //*Handle errors*//
 // 404 err
 app.use((req, res, next) => {
-    const err = new Error('Page Not Found')
+    const err = new Error('Bummer, Page Not Found')
     err.status = 404;
     console.log(err.message)
     next(err);
