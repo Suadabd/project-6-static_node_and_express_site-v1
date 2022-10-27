@@ -1,7 +1,7 @@
 
 //var I'm working with
 const express = require('express');
-const {project} = require('./data.json');   ///const config = require('/path/to/file');
+const {projects} = require('./data.json');   ///const config = require('/path/to/file');
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use('/static', express.static('public'));
 
 ////Setting up Routes
 app.get('/', (req, res )=> {
-    res.render('index', {project} )
+    res.render('index', {projects} )
 });
 app.get('/about', (req, res )=> {
     res.render('about')
@@ -23,7 +23,7 @@ app.get('/project/:id', (req, res, next) => {
     const id  = req.params.id;
     // const project = projects[id];
     if (id <= project.length && id >= 0 ){
-        res.render('project', { project: project[id] });
+        res.render('project', { project });
     } else {
         next();
     }
