@@ -10,8 +10,38 @@
             "image_urls": ["/static/images/project1.png",
                             "/static/images/project1_2.png"]
         },
-        { 
+        {
             "id": 1,
+            "project_name": "project-2-data-pagination-and-filtering",
+            "description": "In this project I wrote code taking a array of student objects to display list on cards on a page and paginating it in a list of nine",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://suadabd.github.io/project-2-data-pagination-and-filtering/",
+            "github_link": "https://suadabd.github.io/project-2-data-pagination-and-filtering/",
+            "image_urls": ["/static/images/project2.png",
+                            "/static/images/project2_1.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "project-3-interactive-form",
+            "description": "In this project I made a webform interactive by implementing custom validation in required fields, displaying error messages to guide user, and ensuring correct fields are displayed based on user interaction.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://suadabd.github.io/project-3-interactive-form/",
+            "github_link": "https://suadabd.github.io/project-3-interactive-form/",
+            "image_urls": ["/static/images/project3.png",
+                        "/static/images/project3_1.png"]
+        },
+        {
+            "id":3,
+            "project_name": "project-4-oop_game-v2",
+            "description": "In this project I created a project based guessing game called the 'Phrase Hunter. To achive this I ultilized Java Script and (OOP) Object Oriented Programming.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://suadabd.github.io/project-4-oop_game-v2/",
+            "github_link": "https://suadabd.github.io/project-4-oop_game-v2/",
+            "image_urls": ["/static/images/project4.png",
+                            "/static/images/project4_1.png"]
+        },
+        { 
+            "id": 4,
             "project_name": "project-5-student_files",
             "description": "I created a employee directory for a fictional company called 'Awesome Startup'.",
             "technologies":["CSS","JavaScript","HTML"],
@@ -19,6 +49,6 @@
             "github_link": "https://suadabd.github.io/project-5-student_files/",
             "image_urls": ["/static/images/project5_2.png", 
                             "/static/images/project5.png"]
-        }
+        } 
     ]
 }
